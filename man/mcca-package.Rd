@@ -8,15 +8,15 @@ Diagnostic accuracy methods for classifiers
 \description{
   Six common multi-category classification accuracy evaluation measures are included i.e., Correct Classification Percentage (CCP), Hypervolume Under Manifold (HUM), Integrated Discrimination Improvement (IDI), Net Reclassification Improvement (NRI), Polytomous Discrimination Index (PDI) and R-squared (RSQ). It allows users to fit many popular classification procedures, such
 as multinomial logistic regression, support vector machine, classification tree, and user computed
-risk values.
+risk values. Additionally, PDI with variance estimation using Dover et al. (2021) method is provided via the pdi_var function.
 
 }
 \details{
 \tabular{ll}{
 Package: \tab mcca\cr
 Type: \tab Package\cr
-Version: \tab 0.6\cr
-Date: \tab 2019-08-05\cr
+Version: \tab 0.8.0\cr
+Date: \tab 2026-02-06\cr
 License: \tab GPL\cr
 }
 
@@ -29,6 +29,7 @@ License: \tab GPL\cr
     \code{\link{idi}} \tab Calculate IDI Value \cr
     \code{\link{nri}} \tab Calculate NRI Value \cr
     \code{\link{pdi}} \tab Calculate PDI Value \cr
+    \code{\link{pdi_var}} \tab Calculate PDI Value with Variance Estimation (Dover et al. 2021) \cr
     \code{\link{rsq}} \tab Calculate RSQ Value \cr
     \code{\link{pm}} \tab Calculate Probability Matrix \cr
     \code{\link{ests}} \tab Estimated Information for Single Model Evaluation Value \cr
@@ -120,4 +121,3 @@ hum(y = label, d = data, method = "tree")
 ## $interval
 ## [1] 0.9935662 1.0000000
 }
-
