@@ -22,7 +22,6 @@ print.mcca.pdi.var=function(x,...){
   cat("Standard Error:\n",x$se,"\n\n")
   cat(paste0(x$level*100, "% Confidence Interval:\n [",
              round(x$ci[1], 4), ", ", round(x$ci[2], 4), "]\n\n"))
-  cat("Bootstrap Samples:", x$B, "\n\n")
   cat("Category-specific Polytomous Discrimination Index:\n")
   print(x$table, row.names = FALSE)
 }

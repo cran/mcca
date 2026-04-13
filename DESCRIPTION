@@ -1,7 +1,7 @@
 Package: mcca
 Type: Package
 Title: Multi-Category Classification Accuracy
-Version: 0.8.1
+Version: 0.8.2
 Authors@R: c(
     person(given = "Ming", family = "Gao", role = "aut"),
     person(given = "Jialiang", family = "Li",
@@ -30,10 +30,10 @@ Suggests: rgl
 URL: https://github.com/gaoming96/mcca
 BugReports: https://github.com/gaoming96/mcca/issues
 NeedsCompilation: no
-Packaged: 2026-02-16 15:45:13 UTC; chrystalu
+Packaged: 2026-04-13 09:02:01 UTC; chrystalu
 Author: Ming Gao [aut],
   Jialiang Li [aut, cre],
   Pan Liu [aut],
   Ben Van Calster [aut]
 Repository: CRAN
-Date/Publication: 2026-02-17 07:30:02 UTC
+Date/Publication: 2026-04-13 18:10:02 UTC

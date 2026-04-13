@@ -31,6 +31,8 @@ Li, J., Gao, M., D’Agostino, R. (2019). Evaluating Classification Accuracy for
 \author{
 Ming Gao: gaoming@umich.edu
 
+Pan Liu: pan.liu@nus.edu.sg
+
 Jialiang Li: stalj@nus.edu.sg
 }
 

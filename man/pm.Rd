@@ -28,6 +28,8 @@ Li, J., Chow, Y., Wong, W.K., and Wong, T.Y. (2014). Sorting Multiple Classes in
 \author{
 Ming Gao: gaoming@umich.edu
 
+Pan Liu: pan.liu@nus.edu.sg
+
 Jialiang Li: stalj@nus.edu.sg
 }
 

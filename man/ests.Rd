@@ -30,6 +30,8 @@ The function returns the standard error and confidence interval for a single mod
 \author{
 Ming Gao: gaoming@umich.edu
 
+Pan Liu: pan.liu@nus.edu.sg
+
 Jialiang Li: stalj@nus.edu.sg
 }
 \note{

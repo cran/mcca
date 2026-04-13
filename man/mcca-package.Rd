@@ -8,15 +8,15 @@ Diagnostic accuracy methods for classifiers
 \description{
   Six common multi-category classification accuracy evaluation measures are included i.e., Correct Classification Percentage (CCP), Hypervolume Under Manifold (HUM), Integrated Discrimination Improvement (IDI), Net Reclassification Improvement (NRI), Polytomous Discrimination Index (PDI) and R-squared (RSQ). It allows users to fit many popular classification procedures, such
 as multinomial logistic regression, support vector machine, classification tree, and user computed
-risk values. Additionally, PDI with variance estimation using Dover et al. (2021) method is provided via the pdi_var function.
+risk values. Additionally, PDI with variance estimation using Dover et al. (2021) method is provided via the pdi function.
 
 }
 \details{
 \tabular{ll}{
 Package: \tab mcca\cr
 Type: \tab Package\cr
-Version: \tab 0.8.0\cr
-Date: \tab 2026-02-06\cr
+Version: \tab 0.8.2\cr
+Date: \tab 2026-04-12\cr
 License: \tab GPL\cr
 }
 
@@ -28,8 +28,7 @@ License: \tab GPL\cr
     \code{\link{plot.mcca.hum}} \tab Plot 3D ROC curve \cr
     \code{\link{idi}} \tab Calculate IDI Value \cr
     \code{\link{nri}} \tab Calculate NRI Value \cr
-    \code{\link{pdi}} \tab Calculate PDI Value \cr
-    \code{\link{pdi_var}} \tab Calculate PDI Value with Variance Estimation (Dover et al. 2021) \cr
+    \code{\link{pdi}} \tab Calculate PDI Value with Optional Variance Estimation \cr
     \code{\link{rsq}} \tab Calculate RSQ Value \cr
     \code{\link{pm}} \tab Calculate Probability Matrix \cr
     \code{\link{ests}} \tab Estimated Information for Single Model Evaluation Value \cr
@@ -57,9 +56,9 @@ Li J, Gao M, D'Agostino R. Evaluating classification accuracy for modern learnin
 approaches. Statistics in Medicine. 2019;1-27. https://doi.org/10.1002/sim.8103
 }
 \author{
-Ming Gao, Jialiang Li
+Ming Gao, Pan Liu, Jialiang Li
 
-Maintainer: Ming Gao <gaoming@umich.edu>
+Maintainer: Jialiang Li <stalj@nus.edu.sg>
 }
 \references{
 Li, J., Gao, M., D’Agostino, R. (2019). Evaluating Classification Accuracy for Modern Learning Approaches. Statistics in Medicine (Tutorials in Biostatistics). 38(13): 2477-2503.
@@ -74,11 +73,9 @@ Li, J., Jiang, B. and Fine, J. P. (2013). Multicategory reclassification statist
 
 Li, J., Jiang, B., and Fine, J. P. (2013). Letter to Editor: Response. Biostatistics. 14(4): 809-810.
 
-Van Calster B, Vergouwe Y, Looman CWN, Van Belle
-V, Timmerman D and Steyerberg EW. Assessing the
-discriminative ability of risk models for more than two outcome
-categories. European Journal of Epidemiology 2012; 27: 761 C
-770.
+Feng, Q., Jia, T., Liu, P., Van Calster, B., Li J. (2026). Efficient variance estimation for the polytomous discrimination index. Statistics in Medicine.
+
+Van Calster, B., Vergouwe, Y., Looman, C.W.N., Van Belle, V., Timmerman, D. and Steyerberg, E.W. Assessing the discriminative ability of risk models for more than two outcome categories. European Journal of Epidemiology 2012; 27: 761-770.
 
 Li, J., Feng, Q., Fine, J.P., Pencina, M.J., Van Calster, B. (2018). Nonparametric estimation and inference for polytomous discrimination index. Statistical Methods in Medical Research. 27(10): 3092—3103.
 

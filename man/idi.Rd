@@ -31,6 +31,8 @@ Li, J., Jiang, B., and Fine, J. P. (2013). Letter to Editor: Response. Biostatis
 \author{
 Ming Gao: gaoming@umich.edu
 
+Pan Liu: pan.liu@nus.edu.sg
+
 Jialiang Li: stalj@nus.edu.sg
 }
 \note{
